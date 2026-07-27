@@ -1,0 +1,29 @@
+{
+  "release": "1.0.0",
+  "javascript_files_checked": [
+    "app.js",
+    "church-info.js",
+    "config.js",
+    "demo-api.js",
+    "supabase-api.js"
+  ],
+  "rls_tables_checked": [
+    "profiles",
+    "private_profiles",
+    "teams",
+    "team_members",
+    "announcements",
+    "events",
+    "prayer_requests",
+    "direct_conversations",
+    "direct_conversation_members",
+    "direct_messages",
+    "team_notices",
+    "team_discussions",
+    "team_discussion_comments",
+    "activity_log"
+  ],
+  "supabase_js_version": "2.110.8",
+  "demo_mode_enabled": false,
+  "status": "PASS"
+}

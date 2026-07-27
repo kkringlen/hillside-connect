@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0e2a47" />
+  <meta name="description" content="Hillside Connect — church calendar, communication, teams, prayer requests, and member resources." />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' https://*.supabase.co wss://*.supabase.co; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'" />
+  <title>Hillside Connect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <noscript>This application requires JavaScript.</noscript>
+  <div id="app" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <div id="toast-root" aria-live="assertive"></div>
+
+  <script src="config.js"></script>
+  <script src="church-info.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8"></script>
+  <script src="demo-api.js"></script>
+  <script src="supabase-api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
